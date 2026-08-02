@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://www.ushphealth.com
+host: https://www.ushphealth.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+notes: >-
+  No API/developer subdomains resolve (api., developer., developers., docs.,
+  status., trust., security. ushphealth.com all NXDOMAIN). The site is a
+  Webflow marketing property for a physician-led cardiovascular care network;
+  no public API discovery surface was found.
