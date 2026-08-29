@@ -8,6 +8,17 @@ description: 'US Health Partners (USHP) is a physician-led national cardiovascul
   Venture Partners, Summit Partners, and Silversmith Capital Partners. USHP publishes
   no public developer portal or API surface as of July 2026.'
 url: https://raw.githubusercontent.com/api-evangelist/us-health-partners-llc/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
