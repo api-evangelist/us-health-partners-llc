@@ -1,5 +1,5 @@
 aid: us-health-partners-llc
-name: US Health Partners, LLC
+name: US Health Partners
 description: 'US Health Partners (USHP) is a physician-led national cardiovascular
   care network headquartered in Rockville, Maryland. USHP partners with independent
   cardiology practices across the country, providing management support, clinical
@@ -81,3 +81,4 @@ common:
   url: well-known/us-health-partners-llc-well-known.yml
 - type: LLMsTxt
   url: llms/us-health-partners-llc-llms.txt
+x-legal-name: US Health Partners, LLC
